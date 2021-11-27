@@ -4,6 +4,8 @@
 - **Attribute** - modificadores HTML (_example:_ `href`)
 - **Value** - valor aplicado a un atributo (_example:_ `http://tania.dev`)
 - **Element** -todo dentro de la etiqueta HTML: atributos, valores y contenido..
+  
+![tag html](images/estructura-etiqueta-html.png)
 
 Ejemplo:
 
@@ -43,6 +45,7 @@ Esto nos llevará a la web de Tania
 
 
 ## Etiqueta HTML 
+
 La parte esencial de una etiqueta HTML es lo que se denomina la etiqueta de apertura. Se trata de escribir el nombre de la etiqueta en cuestión, colocándola entre los carácteres ````< y >````. Aunque no es terminantemente obligatorio, se recomienda y considera una buena costumbre escribir las etiquetas siempre en minúsculas.
 
 En HTML5 no se puede colocar cualquier palabra como etiqueta, sino que existen una serie específica de etiquetas, cada una con una misión y objetivo diferente. Por ejemplo, la etiqueta ````<strong>````:

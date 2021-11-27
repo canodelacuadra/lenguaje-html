@@ -20,10 +20,8 @@
  17. [Elementos multimedia:subtitulos](17-multimedia-subtitulos.md)
  18. [Elementos de cabecera: recursos y metadatos](18-head-html.md)
  19. [Form HTML.](19-form-html.md)
- 20. [Elementos interactivos (dialog, details, atributos : hidden,contenteditable)](20-interactivos-html.md) 
- 19. [Elementos de formularios: form, controles](21-form-html.md)
- 20.   [Controles de formularios: input, label, textarea,select, button](22-form-controles.md)
- 21.   [Validación html5](23-form-validacion.md)
+ 20. [Elementos interactivos (dialog, details, atributos : hidden,contenteditable)](20-organizacion-campos.md) 
+
  
 
 

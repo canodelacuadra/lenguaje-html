@@ -45,7 +45,7 @@ Estas cuatro etiquetas serían las etiquetas necesarias para crear una tabla. Un
   </tr>
 </table>
 ````
-En este caso de ejemplo tendríamos una sencilla tabla de 3x2 celdas. Por defecto, en la tabla se crea de forma que se adapta al número de celdas que tiene la primera fila. Es decir, si en el primer elemento <tr> se indican 3 elementos <th>, la tabla esperará siempre 3 elementos en cada fila. Si indicaramos menos, las celdas correspondientes donde deberían estar aparecerían vacías (sin celda). Si añadieramos una de más, se saldría de la tabla.
+En este caso de ejemplo tendríamos una sencilla tabla de 3x2 celdas. Por defecto, en la tabla se crea de forma que se adapta al número de celdas que tiene la primera fila. Es decir, si en el primer elemento ``<tr>`` se indican 3 elementos ``<th>``, la tabla esperará siempre 3 elementos en cada fila. Si indicaramos menos, las celdas correspondientes donde deberían estar aparecerían vacías (sin celda). Si añadieramos una de más, se saldría de la tabla.
 
 Además, si al código HTML anterior le aplicamos unos apropiados estilos CSS de tablas, junto a cambios de colores, fuentes, márgenes, rellenos y otros aspectos visuales, podremos cambiar el diseño de la tabla en poco más que un par de líneas.
 
@@ -122,7 +122,7 @@ auto	La cabecera se aplica a las celdas de forma automática.
 abbr (solo ``<th>``)	nombre	Abreviatura o información alternativa sobre la cabecera.
 Con estos atributos podemos indicar que ciertas celdas abarquen más espacio y se combinen con el espacio que ocuparía otra celda adyacente y así crear estructuras de tabla más flexibles.
 
-Imaginemos que al código HTML de la tabla anterior, le añadimos antes de la primera fila de <td>, una nueva fila con una sola celda <td> con un atributo colspan a 3. Con esto estaríamos indicando que esa nueva fila (originalmente, de 3 celdas) va a abarcar las 3 celdas de espacio con una sola celda:
+Imaginemos que al código HTML de la tabla anterior, le añadimos antes de la primera fila de ``<td>``, una nueva fila con una sola celda ``<td>`` con un atributo colspan a 3. Con esto estaríamos indicando que esa nueva fila (originalmente, de 3 celdas) va a abarcar las 3 celdas de espacio con una sola celda:
 
 ````html
 <style>
